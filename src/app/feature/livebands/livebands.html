@@ -1,0 +1,17 @@
+<div class="livebands-container" id="live-bands">
+  <div class="livebands-content">
+    <h2 class="livebands-title">LIVE BANDS</h2>
+
+    <div class="bands-grid">
+      <div class="band-card" *ngFor="let band of bands">
+        <div class="band-image-wrapper">
+          <h3 class="band-name">{{ band.name }}</h3>
+          <div class="band-image">
+            <img [src]="band.image" [alt]="band.name" class="band-photo" />
+          </div>
+        </div>
+        <p class="band-description">{{ band.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

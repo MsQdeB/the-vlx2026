@@ -1,0 +1,18 @@
+<div class="youtube-container" id="highlights">
+  <div class="youtube-content">
+    <div class="videos-grid">
+      <div class="video-card" *ngFor="let video of videos">
+        <div class="video-wrapper">
+          <iframe
+            [src]="video.embedUrl"
+            [title]="video.title"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h3 class="video-title">{{ video.title }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
