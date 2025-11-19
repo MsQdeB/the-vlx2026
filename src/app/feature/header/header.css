@@ -23,7 +23,7 @@
 .nav-secondary {
   display: flex;
   justify-content: center;
-  padding: 8px 0;
+  padding: 4px 0;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 30px;
+  gap: 25px;
   align-items: center;
 }
 
@@ -44,10 +44,10 @@
   color: #3b0600;
   text-decoration: none;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 4px;
   transition: all 0.3s ease;
   display: block;
@@ -62,7 +62,7 @@
 .mobile-title {
   display: none;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   color: #3b0600;
   letter-spacing: 1px;
   text-align: center;
@@ -154,16 +154,21 @@
 /* Tablet Styles */
 @media (max-width: 968px) {
   .nav-list {
-    gap: 20px;
+    gap: 15px;
   }
 
   .nav-link {
     font-size: 13px;
-    padding: 6px 10px;
+    padding: 4px 8px;
   }
 
   .header-container {
     padding: 0 15px;
+  }
+
+  .nav-primary,
+  .nav-secondary {
+    padding: 3px 0;
   }
 }
 
@@ -187,7 +192,7 @@
   }
 
   .header-container {
-    padding: 15px 20px;
+    padding: 10px 20px;
     text-align: center;
   }
 }
@@ -195,20 +200,20 @@
 /* Small Mobile Styles */
 @media (max-width: 480px) {
   .header-container {
-    padding: 12px 15px;
+    padding: 8px 15px;
   }
 
   .mobile-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .mobile-nav-link {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 8px;
   }
 
   .mobile-nav-list {
-    padding: 15px;
+    padding: 12px;
   }
 }
 

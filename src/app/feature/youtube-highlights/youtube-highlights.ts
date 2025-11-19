@@ -14,7 +14,7 @@ export class YoutubeHighlightsComponent {
 
   constructor(private sanitizer: DomSanitizer) {
     // Replace these YouTube video IDs with your actual video IDs
-    const videoData = [{ id: 'dQw4w9WgXcQ', title: 'VLX 2024 Highlights' }];
+    const videoData = [{ id: 'FNKgiRwGkEs', title: 'VLX 2024 Highlights' }];
 
     this.videos = videoData.map((video) => ({
       title: video.title,

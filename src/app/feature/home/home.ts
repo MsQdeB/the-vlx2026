@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AccommodationComponent } from '../accommodation/accommodation';
 import { AnnouncementComponent } from '../announcement/announcement';
 import { FooterComponent } from '../footer/footer';
 import { GalleryComponent } from '../gallery/gallery';
@@ -14,6 +15,7 @@ import { YoutubeHighlightsComponent } from '../youtube-highlights/youtube-highli
     OverviewComponent,
     AnnouncementComponent,
     LivebandsComponent,
+    AccommodationComponent,
     TransportationComponent,
     RegistrationsComponent,
     GalleryComponent,

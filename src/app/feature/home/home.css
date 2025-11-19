@@ -49,8 +49,8 @@
 .hero-container {
   width: 100%;
   max-width: 100%; /* Use full width of the container */
-  height: 400px;
-  background-image: url('../../../assets/joshua-sortino-XMcoTHgNcQA-unsplash.jpg');
+  height: 500px;
+  background-image: url('../../../assets/vlx-overview.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

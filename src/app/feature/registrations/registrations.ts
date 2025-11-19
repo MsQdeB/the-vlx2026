@@ -11,6 +11,6 @@ export class RegistrationsComponent {
 
   onRegisterClick() {
     // Open registration link
-    window.open('https://google.com', '_blank');
+    window.open('https://docs.google.com/forms/d/1Um40FnZCoi6Aq6HMq45zkebY9f4StYoUmt673huX_7g/edit', '_blank');
   }
 }
