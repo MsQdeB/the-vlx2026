@@ -13,10 +13,47 @@
 }
 
 .registrations-title {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
   margin: 0 0 40px 0;
   letter-spacing: 2px;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  background-color: rgba(59, 6, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.countdown-item:hover {
+  transform: translateY(-5px);
+}
+
+.countdown-value {
+  font-size: 36px;
+  font-weight: 700;
+  color: #3b0600;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.countdown-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3b0600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .registration-info {
@@ -161,6 +198,19 @@
     font-size: 28px;
   }
 
+  .countdown-item {
+    min-width: 90px;
+    padding: 18px;
+  }
+
+  .countdown-value {
+    font-size: 32px;
+  }
+
+  .countdown-label {
+    font-size: 13px;
+  }
+
   .price-item {
     font-size: 22px;
   }
@@ -195,6 +245,23 @@
 
   .registrations-title {
     font-size: 24px;
+  }
+
+  .countdown-container {
+    gap: 10px;
+  }
+
+  .countdown-item {
+    min-width: 70px;
+    padding: 15px 10px;
+  }
+
+  .countdown-value {
+    font-size: 28px;
+  }
+
+  .countdown-label {
+    font-size: 11px;
   }
 
   .registration-info {
@@ -258,6 +325,24 @@
     margin-bottom: 30px;
   }
 
+  .countdown-container {
+    gap: 8px;
+  }
+
+  .countdown-item {
+    min-width: 60px;
+    padding: 12px 8px;
+  }
+
+  .countdown-value {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .countdown-label {
+    font-size: 10px;
+  }
+
   .registration-info {
     padding: 15px;
   }
@@ -304,4 +389,8 @@
     font-size: 16px;
     padding: 12px 25px;
   }
+}
+
+.btn-register-section {
+  text-align: center;
 }

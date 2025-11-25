@@ -2,6 +2,32 @@
   <div class="registrations-content">
     <h3 class="registrations-title">REGISTRATIONS</h3>
 
+    <!-- Countdown Timer -->
+    @if (showCountdown) {
+      <div class="countdown-container">
+        <div class="countdown-item">
+          <div class="countdown-value">{{ countdown.months }}</div>
+          <div class="countdown-label">Months</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value">{{ countdown.days }}</div>
+          <div class="countdown-label">Days</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value">{{ countdown.hours }}</div>
+          <div class="countdown-label">Hours</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value">{{ countdown.minutes }}</div>
+          <div class="countdown-label">Minutes</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value">{{ countdown.seconds }}</div>
+          <div class="countdown-label">Seconds</div>
+        </div>
+      </div>
+    }
+
     <div class="registration-info">
       <div class="info-section">
         <h4 class="info-section-title">📅 Registration Schedule</h4>
@@ -34,16 +60,17 @@
         </ul>
       </div>
     </div>
+    <div class="btn-register-section">
+      <div class="tshirt-section">
+        <h2 class="tshirt-title">VLX 2026 T-shirt! Pre-order only!</h2>
+        <p class="tshirt-description">
+          But we may have some extra at 350,000VND/ T-shirt. Contact us for more details.
+        </p>
+      </div>
 
-    <div class="tshirt-section">
-      <h2 class="tshirt-title">VLX 2026 T-shirt! Pre-order only!</h2>
-      <p class="tshirt-description">
-        But we may have some extra at 350,000VND/ T-shirt. Contact us for more details.
-      </p>
-    </div>
-
-    <div class="register-button-section">
-      <button class="register-button" (click)="onRegisterClick()">REGISTER HERE!!</button>
+      <div class="register-button-section">
+        <button class="register-button" (click)="onRegisterClick()">REGISTER HERE!!</button>
+      </div>
     </div>
   </div>
 </div>
