@@ -65,7 +65,7 @@ export class RegistrationsComponent implements OnInit, OnDestroy {
   onRegisterClick() {
     // Open registration link
     window.open(
-      'https://docs.google.com/forms/d/1Um40FnZCoi6Aq6HMq45zkebY9f4StYoUmt673huX_7g/edit',
+      'https://docs.google.com/forms/d/e/1FAIpQLSegnsMdwTXmkvnNPksnrTlwK6dWzqmEo3yXc8czvQHiNgsCWg/closedform',
       '_blank',
     );
   }
