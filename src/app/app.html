@@ -1,5 +1,19 @@
 <app-header></app-header>
 <main class="main-content">
   <router-outlet />
+
+  <!-- Volunteers Card - Bottom Left -->
+  <div class="volunteers-card-container">
+    <a routerLink="/volunteers" class="volunteers-card">
+      <div class="volunteers-card-inner">
+        <!-- <div class="volunteers-icon">🤝</div> -->
+        <div class="volunteers-text">
+          <h3 class="volunteers-card-title">We Need You!</h3>
+          <p class="volunteers-card-subtitle">3 Core Volunteers</p>
+        </div>
+        <div class="volunteers-arrow">→</div>
+      </div>
+    </a>
+  </div>
 </main>
 <app-scroll-to-top></app-scroll-to-top>
