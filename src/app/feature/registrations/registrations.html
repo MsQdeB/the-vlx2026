@@ -1,6 +1,6 @@
 <div class="registrations-container" id="registrations">
   <div class="registrations-content">
-    <h3 class="registrations-title">INDIVIDUAL REGISTRATION</h3>
+    <h3 class="registrations-title">INDIVIDUAL REGISTRATION HERE</h3>
 
     <!-- Countdown Timer -->
     @if (showCountdown) {
@@ -30,21 +30,7 @@
 
     <div class="registration-info">
       <div class="info-section">
-        <h4 class="info-section-title">📅 Registration Schedule</h4>
-        <p class="info-text">
-          🗓️ <strong>22 Nov, 16:00 GMT+7:</strong> Group Registration<br />
-          <span class="info-subtext">(Maximum 10 groups, each with 8–10 dancers)</span>
-        </p>
-        <p class="info-text">
-          🗓️ <strong>29 Nov, 16:00 GMT+7:</strong> Individual Registration<br />
-          <span class="info-subtext">(First 50 dancers get the Early Bird price! 👀)</span>
-        </p>
-      </div>
-
-      <div class="info-section">
         <h4 class="info-section-title">💸 Pricing</h4>
-        <p class="info-text">💸 <strong>Group:</strong> 4,080,000 VND</p>
-        <p class="info-text">💸 <strong>Early Bird:</strong> 4,380,000 VND</p>
         <p class="info-text">💸 <strong>Regular:</strong> 4,800,000 VND</p>
       </div>
 
@@ -61,15 +47,41 @@
       </div>
     </div>
     <div class="btn-register-section">
-      <div class="tshirt-section">
-        <h2 class="tshirt-title">VLX 2026 T-shirt! Pre-order only at 350,000 VND</h2>
-        <p class="tshirt-description">
-          Design reveal & pre-order opening soon. Follow us to stay updated!
-        </p>
-      </div>
-
       <div class="register-button-section">
         <button class="register-button" (click)="onRegisterClick()">REGISTER HERE!!</button>
+      </div>
+    </div>
+
+    <!-- T-shirt Pre-order Section -->
+    <div class="tshirt-preorder-section">
+      <h3 class="tshirt-preorder-title">VLX 2026 T-SHIRT – PRE-ORDER</h3>
+
+      <div class="tshirt-content">
+        <div class="tshirt-image-container">
+          <img src="assets/tshirt-pre-order.jpg" alt="VLX 2026 T-shirt" class="tshirt-image" />
+        </div>
+
+        <div class="tshirt-details">
+          <p class="tshirt-intro">Get your VLX 2026 T-shirt before we sell out!</p>
+          <p class="tshirt-material">
+            Made from 100% 2-way cotton (250gsm) - soft, breathable, and durable.
+          </p>
+
+          <div class="tshirt-info-list">
+            <p class="tshirt-info-item">👕 <strong>Price:</strong> 350,000 VND / $15</p>
+            <p class="tshirt-info-item">📅 <strong>Pre-order deadline:</strong> February 12</p>
+            <p class="tshirt-info-item">📦 <strong>Pick-up:</strong> At VLX 2026</p>
+          </div>
+
+          <p class="tshirt-note"><strong>Pre-order only.</strong></p>
+          <p class="tshirt-disclaimer">
+            Note: Actual color may vary slightly from the design image.
+          </p>
+
+          <button class="tshirt-preorder-button" (click)="onTshirtPreorderClick()">
+            PRE-ORDER T-SHIRT
+          </button>
+        </div>
       </div>
     </div>
   </div>

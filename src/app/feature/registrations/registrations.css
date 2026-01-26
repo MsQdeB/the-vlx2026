@@ -159,6 +159,114 @@
   margin: 0 auto;
 }
 
+/* T-shirt Pre-order Section */
+.tshirt-preorder-section {
+  margin-top: 80px;
+  padding-top: 60px;
+  border-top: 3px solid rgba(59, 6, 0, 0.2);
+}
+
+.tshirt-preorder-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  letter-spacing: 2px;
+  color: #3b0600;
+}
+
+.tshirt-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tshirt-image-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.tshirt-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tshirt-details {
+  flex: 1;
+  text-align: left;
+}
+
+.tshirt-intro {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  color: #3b0600;
+}
+
+.tshirt-material {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+  color: #3b0600;
+}
+
+.tshirt-info-list {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tshirt-info-item {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 0 10px 0;
+  color: #3b0600;
+}
+
+.tshirt-info-item:last-child {
+  margin-bottom: 0;
+}
+
+.tshirt-note {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #3b0600;
+}
+
+.tshirt-disclaimer {
+  font-size: 14px;
+  font-style: italic;
+  color: #5a0900;
+  margin: 0 0 30px 0;
+}
+
+.tshirt-preorder-button {
+  background-color: #69815e;
+  color: #fff;
+  border: 3px solid #4a5c42;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.tshirt-preorder-button:hover {
+  background-color: #54674b;
+  color: #ffb237;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 6, 0, 0.3);
+}
+
 .register-button-section {
   margin-top: 60px;
 }
@@ -230,6 +338,28 @@
   .register-button {
     font-size: 22px;
     padding: 18px 35px;
+  }
+
+  .tshirt-preorder-section {
+    margin-top: 60px;
+    padding-top: 50px;
+  }
+
+  .tshirt-preorder-title {
+    font-size: 28px;
+  }
+
+  .tshirt-content {
+    gap: 30px;
+  }
+
+  .tshirt-intro {
+    font-size: 18px;
+  }
+
+  .tshirt-preorder-button {
+    font-size: 18px;
+    padding: 16px 30px;
   }
 }
 
@@ -307,6 +437,45 @@
   .register-button {
     font-size: 18px;
     padding: 15px 30px;
+  }
+
+  .tshirt-preorder-section {
+    margin-top: 50px;
+    padding-top: 40px;
+  }
+
+  .tshirt-preorder-title {
+    font-size: 24px;
+  }
+
+  .tshirt-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .tshirt-image-container {
+    max-width: 100%;
+  }
+
+  .tshirt-details {
+    text-align: center;
+  }
+
+  .tshirt-intro {
+    font-size: 16px;
+  }
+
+  .tshirt-material {
+    font-size: 15px;
+  }
+
+  .tshirt-info-item {
+    font-size: 15px;
+  }
+
+  .tshirt-preorder-button {
+    font-size: 16px;
+    padding: 14px 28px;
   }
 }
 
@@ -388,6 +557,51 @@
   .register-button {
     font-size: 16px;
     padding: 12px 25px;
+  }
+
+  .tshirt-preorder-section {
+    margin-top: 40px;
+    padding-top: 30px;
+  }
+
+  .tshirt-preorder-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tshirt-content {
+    gap: 20px;
+  }
+
+  .tshirt-intro {
+    font-size: 15px;
+  }
+
+  .tshirt-material {
+    font-size: 14px;
+  }
+
+  .tshirt-info-list {
+    padding: 15px;
+  }
+
+  .tshirt-info-item {
+    font-size: 14px;
+  }
+
+  .tshirt-note {
+    font-size: 14px;
+  }
+
+  .tshirt-disclaimer {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .tshirt-preorder-button {
+    font-size: 14px;
+    padding: 12px 24px;
+    width: 100%;
   }
 }
 
