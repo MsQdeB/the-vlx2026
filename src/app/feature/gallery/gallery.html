@@ -10,7 +10,12 @@
           (touchstart)="onTouchStart($event)"
           (touchend)="onTouchEnd($event)"
         >
-          <img [src]="currentImage.url" [alt]="currentImage.alt" class="main-image" loading="lazy" />
+          <img
+            [src]="currentImage.url"
+            [alt]="currentImage.alt"
+            class="main-image"
+            loading="lazy"
+          />
         </div>
 
         <!-- Previous Button -->
