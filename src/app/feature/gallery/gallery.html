@@ -10,7 +10,7 @@
           (touchstart)="onTouchStart($event)"
           (touchend)="onTouchEnd($event)"
         >
-          <img [src]="currentImage.url" [alt]="currentImage.alt" class="main-image" />
+          <img [src]="currentImage.url" [alt]="currentImage.alt" class="main-image" loading="lazy" />
         </div>
 
         <!-- Previous Button -->
@@ -35,7 +35,7 @@
           [class.active]="i === currentIndex"
           (click)="goToImage(i)"
         >
-          <img [src]="image.url" [alt]="image.alt" class="thumbnail-image" />
+          <img [src]="image.url" [alt]="image.alt" class="thumbnail-image" loading="lazy" />
         </div>
       </div>
     </div>

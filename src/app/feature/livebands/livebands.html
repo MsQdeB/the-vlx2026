@@ -7,7 +7,7 @@
         <div class="band-image-wrapper">
           <h3 class="band-name">{{ band.name }}</h3>
           <div class="band-image">
-            <img [src]="band.image" [alt]="band.name" class="band-photo" />
+            <img [src]="band.image" [alt]="band.name" class="band-photo" loading="lazy" />
           </div>
         </div>
         <p class="band-description">{{ band.description }}</p>
