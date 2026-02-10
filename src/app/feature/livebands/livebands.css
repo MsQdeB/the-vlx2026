@@ -82,6 +82,22 @@
   max-width: 100%;
 }
 
+::ng-deep.band-description a {
+  color: #3b0600 !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.band-description a:visited {
+  color: #3b0600 !important;
+}
+
+::ng-deep.band-description a:hover,
+.band-description a:active {
+  color: #e77d1b !important;
+  text-decoration: underline;
+}
+
 /* Tablet Responsive */
 @media (max-width: 1024px) {
   .livebands-container {

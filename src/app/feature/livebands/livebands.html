@@ -10,7 +10,7 @@
             <img [src]="band.image" [alt]="band.name" class="band-photo" loading="lazy" />
           </div>
         </div>
-        <p class="band-description">{{ band.description }}</p>
+        <p class="band-description" [innerHTML]="band.description"></p>
       </div>
     </div>
   </div>
