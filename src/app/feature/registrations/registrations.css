@@ -292,6 +292,10 @@
   box-shadow: 0 8px 20px rgba(59, 6, 0, 0.3);
 }
 
+.register-button:disabled{
+  cursor: default;
+}
+
 /* Tablet Responsive */
 @media (max-width: 1024px) {
   .registrations-container {
@@ -608,3 +612,8 @@
 .btn-register-section {
   text-align: center;
 }
+
+.sold-out-regis{
+  font-weight: bold;
+}
+

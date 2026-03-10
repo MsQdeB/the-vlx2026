@@ -72,9 +72,9 @@ export class RegistrationsComponent implements OnInit, OnDestroy {
 
   onTshirtPreorderClick() {
     // Open t-shirt pre-order link (update with actual link when available)
-    window.open(
-      'https://docs.google.com/forms/d/e/1FAIpQLSemLT--n_0Qu-dTp9ffHaeSHsFXrNXP7pcUTjyLUYkTq7cIWw/viewform',
-      '_blank',
-    );
+    // window.open(
+    //   'https://docs.google.com/forms/d/e/1FAIpQLSemLT--n_0Qu-dTp9ffHaeSHsFXrNXP7pcUTjyLUYkTq7cIWw/viewform',
+    //   '_blank',
+    // );
   }
 }

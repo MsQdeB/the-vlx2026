@@ -1,6 +1,6 @@
 <div class="registrations-container" id="registrations">
   <div class="registrations-content">
-    <h3 class="registrations-title">INDIVIDUAL REGISTRATION HERE</h3>
+    <h3 class="registrations-title">INDIVIDUAL REGISTRATION</h3>
 
     <!-- Countdown Timer -->
     @if (showCountdown) {
@@ -30,6 +30,8 @@
 
     <div class="registration-info">
       <div class="info-section">
+        <p class="sold-out-regis">SOLD OUT</p>
+        <p>*Limited number of Day Pass spots for each night available. <br/> Email us at info.thevlx@gmail.com for details. </p>
         <p class="info-text">💸 <strong>Pricing - Regular:</strong> 4,800,000 VND</p>
       </div>
 
@@ -47,7 +49,7 @@
     </div>
     <div class="btn-register-section">
       <div class="register-button-section">
-        <button class="register-button" (click)="onRegisterClick()">REGISTER HERE!!</button>
+        <button class="register-button" disabled (click)="onRegisterClick()">SEE YOU AT VLX!!</button>
       </div>
     </div>
 
@@ -83,7 +85,7 @@
           </p>
 
           <button class="tshirt-preorder-button" (click)="onTshirtPreorderClick()">
-            PRE-ORDER T-SHIRT
+            PRE-ORDER T-SHIRT (Closed)
           </button>
         </div>
       </div>
